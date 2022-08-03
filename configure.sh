@@ -13,6 +13,10 @@ cat zshrc >> ~/.zshrc
 touch ~/.antigenrc
 cat antigenrc >> ~/.antigenrc
 
+# Download powerline font to make sure zsh theme run properly
+git clone git@github.com:powerline/fonts.git
+./fonts/install.sh
+
 # Apply settings
 source ~/.zshrc
 
